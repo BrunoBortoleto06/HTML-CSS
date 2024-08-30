@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+
+    <style>
+        @font-face {
+            font-family: 'Terror';
+            src: url('fontes/Another\ Danger\ -\ Demo.otf') format(opentype);
+            font-weight: normal;
+            font-style: normal;
+
+            /* tipos de format()
+            
+            - opentype(otf)
+            - truetype(ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            
+            */
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Terror', fantasy;
+            font-size: 3em;
+            font-weight: normal;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Titulo</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni, accusantium error alias, nesciunt dicta laboriosam, suscipit blanditiis natus illum neque iusto et corrupti cum? Magni dignissimos quaerat et sequi!
+    </p>
+
+    <h2>SubTitulo</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minima nobis est aspernatur maiores impedit, architecto dolores illo aperiam voluptate eius consectetur dicta itaque non, eaque quaerat sint nisi officia!
+    </p>
+</body>
+</html>
